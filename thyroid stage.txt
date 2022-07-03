@@ -1,0 +1,8 @@
+HYPERTHYROIDISM
+
+sweating,weight loss,anxiety,rapid heart rate,sleep issues,puffy face,bulging of eyes,confusion
+
+
+
+HYPOTHYROIDISM
+weight gain,cold,puffy face,fatigue,muscle weakness,dry skin,depression,anemia,psych

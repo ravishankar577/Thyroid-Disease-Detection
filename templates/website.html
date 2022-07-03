@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Thyroid Prediction</title>
+    </head>
+    
+    <body>
+        <form name="form", method="POST", style="text-align: center;">
+            <br>
+            <font size="+2">age: <input type="number" name="age", placeholder="Enter Age of Participant as a number" required/></font>
+            <br><br>
+            <font size="+2"><label for="gender">Enter Gender of the Participant:</label></font>
+            <select id="gender" name="gender">
+                <option value="male">male</option>
+                <option value="female">female</option>
+            </select>
+            <br><br>
+            <font size="+2"><label for="Cold">Does the participant have Cold?:</label></font>
+            <select id="Cold" name="Cold">
+                <option value="false">false</option>
+                <option value="true">true</option>
+            </select>
+            <br><br>
+            <font size="+2"><label for="Depression">Does the participant have Depression:</label></font>
+            <select id="Depression" name="Depression">
+                <option value="false">false</option>
+                <option value="true">true</option>
+            </select>
+            <br><br>
+            <font size="+2"><label for="pregnant">Is the participant pregnant?:</label></font>
+            <select id="pregnant" name="pregnant">
+                <option value="false">false</option>
+                <option value="true">true</option>
+            </select>
+            <br><br>
+            <font size="+2"><label for="thyroid_surgery">Has the participant undergone thyroid surgery?:</label></font>
+            <select id="thyroid_surgery" name="thyroid_surgery">
+                <option value="false">false</option>
+                <option value="true">true</option>
+            </select>
+            <br><br>
+            <font size="+2"><label for="puffy_face">Does the participant have a puffy face?:</label></font>
+            <select id="puffy_face" name="puffy_face">
+                <option value="false">false</option>
+                <option value="true">true</option>
+            </select>
+            <br><br>
+            <font size="+2"><label for="Decrease_blinking">Does the participant have Dry skin?:</label></font>
+            <select id="Dry_skin" name="Dry_skin">
+                <option value="false">false</option>
+                <option value="true">true</option>
+            </select>
+            <br><br>
+            <font size="+2"><label for="Hypopituitary_Disease">Does the participant have Hypopituitary Disease?:</label></font>
+            <select id="Hypopituitary_Disease" name="Hypopituitary_Disease">
+                <option value="false">false</option>
+                <option value="true">true</option>
+            </select>
+            <br><br>
+            <font size="+2"><label for="psych">Does the participant have any records of psychological issues?:</label></font>
+            <select id="psych" name="psych">
+                <option value="false">false</option>
+                <option value="true">true</option>
+            </select>
+            <br><br>
+            <font size="+2"><label for="Sudden_weight_gain">Has the participant undergone Sudden weight gain?:</label></font>
+            <select id="Sudden_weight_gain" name="Sudden_weight_gain">
+                <option value="false">false</option>
+                <option value="true">true</option>
+            </select>
+            <br><br>
+            <font size="+2"><label for="Muscle_weakness_tenderness_stiffness">Does the participant have any Muscle weakness/tenderness/stiffness?:</label></font>
+            <select id="Muscle_weakness_tenderness_stiffness" name="Muscle_weakness_tenderness_stiffness">
+                <option value="false">false</option>
+                <option value="true">true</option>
+            </select>
+            <br><br>
+            <font size="+2"><label for="Enlarged_thyroid_gland">Does the participant have an Enlarged thyroid gland?:</label></font>
+            <select id="Enlarged_thyroid_gland" name="Enlarged_thyroid_gland">
+                <option value="false">false</option>
+                <option value="true">true</option>
+            </select>
+            <br><br>
+            <font size="+2"><label for="Sweating">Does the participant experience excessive Sweating?:</label></font>
+            <select id="Sweating" name="Sweating">
+                <option value="false">false</option>
+                <option value="true">true</option>
+            </select>
+            <br><br>
+            <font size="+2"><label for="gender">Does the participant have Nervousness/Anxiety/Irritability?:</label></font>
+            <select id="Nervousness_Anxiety_Irritability" name="Nervousness_Anxiety_Irritability">
+                <option value="false">false</option>
+                <option value="true">true</option>
+            </select>
+            <br><br>
+            <font size="+2"><label for="Need_assistance_for_walking">Has the participant experienced sudden weight loss?:</label></font>
+            <select id="sudden_weight_loss" name="sudden_weight_loss">
+                <option value="yes">yes</option>
+                <option value="no">no</option>
+            </select>
+            <br><br>
+            <font size="+2"><label for="Fatigue">Does the participant experience Fatigue?:</label></font>
+            <select id="Fatigue" name="Fatigue">
+                <option value="yes">yes</option>
+                <option value="no">no</option>
+            </select>
+            <br><br>
+            <font size="+2"><label for="Need_assistance_for_walking">Does the participant experience sleep issues?:</label></font>
+            <select id="sleep_issues" name="sleep_issues">
+                <option value="yes">yes</option>
+                <option value="no">no</option>
+            </select>
+            <br><br>
+            <font size="+2"><label for="swelling">Does the participant have swelling?:</label></font>
+            <select id="swelling" name="swelling">
+                <option value="yes">yes</option>
+                <option value="no">no</option>
+            </select>
+            <br><br>
+            <font size="+2"><label for="bulging_of_eyes">Does the participant have bulging of eyes?:</label></font>
+            <select id="bulging_of_eyes" name="bulging_of_eyes">
+                <option value="yes">yes</option>
+                <option value="no">no</option>
+            </select>
+            <br><br>
+            <font size="+2"><label for="anemia">Does the participant have anemia?:</label></font>
+            <select id="anemia" name="anemia">
+                <option value="yes">yes</option>
+                <option value="no">no</option>
+            </select>
+            <br><br>
+            <font size="+2"><label for="confusion">Does the participant experience confusion?:</label></font>
+            <select id="confusion" name="confusion">
+                <option value="yes">yes</option>
+                <option value="no">no</option>
+            </select>
+            <br><br>
+            <font size="+2"><label for="Rapid_heart_beat">Does the participant have Rapid heart beat?:</label></font>
+            <select id="Rapid_heart_beat" name="Rapid_heart_beat">
+                <option value="yes">yes</option>
+                <option value="no">no</option>
+            </select>
+            <br><br>
+            <button value="Submit">Run</button>
+        </form>
+        <br>
+        <p><center><font size="+3"><b>Prediction:</b></font></center></p>
+   
+        <p><center><font size="+2"><b>{{prediction}}</b></font></center></p>
+        <br>
+        <p><center><font size="+3"><b>Predicted Thyroid Type:</b></font></center></p>
+    
+        <p><center><font size="+2"><b>{{type}}</b></font></center></p>
+        <br>
+    </body>
+</html>
